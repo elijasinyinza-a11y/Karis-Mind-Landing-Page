@@ -82,7 +82,6 @@
 
       <div class="nav-right">
         <a href="https://app.karismind.com" class="btn-signin">Sign in</a>
-        <a href="https://app.karismind.com" class="btn-signin">Sign in</a>
         <a href="contact.html" class="btn-nav-primary">Book a Demo</a>
       </div>
 
