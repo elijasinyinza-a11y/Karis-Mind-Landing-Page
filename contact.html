@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Demo — Karis Mind</title>
+<meta name="description" content="Get in touch with the Karis Mind team. Practitioner access, partnerships, and general enquiries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Book a Demo</span>
+    <h1>Book a demo</h1>
+    <p>Whether you're exploring practitioner certification, scoping an organisational engagement, or have a general question — get in touch and we'll respond within two business days.</p>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     CONTACT FORM + INFO
+═══════════════════════════════ -->
+<section class="contact-section" style="background:var(--white)">
+  <div class="container">
+    <div class="contact-inner">
+
+      <!-- Form -->
+      <div class="contact-form-card">
+        <h3 style="margin-bottom:6px">Send us a message</h3>
+        <p style="font-size:13px;margin-bottom:28px">Tell us a bit about yourself and what you're looking to do. The more context you give us, the more useful our response will be.</p>
+
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="fname">First name *</label>
+              <input class="form-input" type="text" id="fname" name="fname" required autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="lname">Last name *</label>
+              <input class="form-input" type="text" id="lname" name="lname" required autocomplete="family-name">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Work email *</label>
+            <input class="form-input" type="email" id="email" name="email" required autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="org">Organisation</label>
+            <input class="form-input" type="text" id="org" name="org" autocomplete="organization">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="role">Your role</label>
+            <select class="form-select" id="role" name="role">
+              <option value="">Select one…</option>
+              <option>Executive Coach or Consultant</option>
+              <option>HR or L&amp;D Leader</option>
+              <option>Founder or Executive</option>
+              <option>Academic or Researcher</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="interest">What are you interested in?</label>
+            <select class="form-select" id="interest" name="interest">
+              <option value="">Select one…</option>
+              <option>Practitioner certification (OCAM™)</option>
+              <option>Practitioner certification (GOLD™)</option>
+              <option>Practitioner certification (Strategy)</option>
+              <option>Deploying instruments with my organisation</option>
+              <option>Partnership or integration</option>
+              <option>General enquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Tell us more</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="A brief description of what you're working on and what you're hoping Karis Mind can help with…"></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Send message</button>
+        </form>
+      </div>
+
+      <!-- Info -->
+      <div class="contact-info">
+        <h3>What happens next</h3>
+        <p>We read every message and respond personally. No automated sequences, no sales scripts — a real conversation about whether and how Karis Mind fits your work.</p>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">📍</div>
+          <div>
+            <h4>Based in</h4>
+            <p>Lusaka, Zambia<br>Operating across Africa and globally</p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">⏱</div>
+          <div>
+            <h4>Response time</h4>
+            <p>Within two business days.<br>Urgent enquiries noted in the message will be prioritised.</p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">🎓</div>
+          <div>
+            <h4>OCAM™ Certification</h4>
+            <p>The OCAM™ certification programme is live and accepting applications. Mention it in your message and we'll send you the details.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:36px;background:var(--bg);border-radius:var(--radius-lg);padding:24px">
+          <div style="font-family:var(--font-display);font-size:14px;font-weight:700;color:var(--ink);margin-bottom:8px">Want to explore the workspace first?</div>
+          <p style="font-size:13px;margin-bottom:16px">The practitioner workspace is available with a free account. Try it before we talk — it'll make the conversation more useful for both of us.</p>
+          <a href="contact.html" class="btn-primary" style="font-size:13px;padding:10px 20px">Book a Demo →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<div id="site-footer"></div>
+<script src="js/layout.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>

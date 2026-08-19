@@ -1,0 +1,78 @@
+/* ============================================================
+   KARIS MIND — Marketing Site Design Tokens
+   css/tokens.css
+
+   Single source of truth. Never use raw values in other files.
+   ============================================================ */
+
+:root {
+
+  /* ── Brand colours ── */
+  --navy:          #0D1B2A;
+  --panel:         #223D56;
+  --gold:          #C9A84C;
+  --gold-light:    #FBF5E6;
+  --gold-border:   rgba(201,168,76,.25);
+  --gold-text:     #8B6B1A;
+
+  /* ── Instrument accents ── */
+  --teal:          #1D9E75;
+  --teal-light:    #E6F7F2;
+  --teal-border:   rgba(29,158,117,.25);
+  --teal-text:     #0F5C43;
+
+  --blue:          #378ADD;
+  --blue-light:    #EBF4FF;
+  --blue-border:   rgba(55,138,221,.25);
+  --blue-text:     #1A5A9E;
+
+  --cyan:          #00B2B8;
+  --cyan-light:    #E0F7F7;
+
+  --violet:        #7C5CBF;
+  --violet-light:  #F0EBFF;
+
+  /* ── Neutrals ── */
+  --bg:            #F5F4F0;
+  --bg-dark:       #EDECEA;
+  --white:         #FFFFFF;
+  --ink:           #0D1B2A;
+  --muted:         #6B7280;
+  --border:        #DDD9D0;
+  --border-light:  #EDECEA;
+
+  /* ── Typography ── */
+  --font-display:  'DM Sans', sans-serif;
+  --font-body:     'Inter', sans-serif;
+
+  /* ── Spacing scale ── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-22: 88px;
+
+  /* ── Border radius ── */
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   14px;
+  --radius-xl:   20px;
+  --radius-full: 999px;
+
+  /* ── Shadows ── */
+  --shadow-sm:  0 2px 8px rgba(13,27,42,.06);
+  --shadow-md:  0 8px 28px rgba(13,27,42,.09);
+  --shadow-lg:  0 16px 48px rgba(13,27,42,.12);
+  --shadow-xl:  0 24px 64px rgba(13,27,42,.14);
+
+  /* ── Transitions ── */
+  --ease:       .15s ease;
+  --ease-md:    .2s ease;
+}
