@@ -30,14 +30,14 @@
                 <span class="mega-link-dot" style="background:var(--gold)"></span>
                 <div>
                   <div class="mega-link-name">GOLD™</div>
-                  <div class="mega-link-sub">Leadership assessment — four dimensions</div>
+                  <div class="mega-link-sub">Leadership assessment — four capacities</div>
                 </div>
               </a>
               <a class="mega-link" href="instruments.html#ocam">
                 <span class="mega-link-dot" style="background:var(--teal)"></span>
                 <div>
                   <div class="mega-link-name">OCAM™</div>
-                  <div class="mega-link-sub">Culture diagnostic — seven subscales</div>
+                  <div class="mega-link-sub">Culture diagnostic — eight-dimension DNA model</div>
                 </div>
               </a>
               <div class="mega-divider"></div>
